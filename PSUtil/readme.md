@@ -13,7 +13,5 @@ If you don't care to deal with the details, this is what you need to do to get s
 > If you want your module to be compatible with Linux and MacOS, keep in mind that those OS are case sensitive for paths and files.
 
 `Import-ModuleFile` is preconfigured to resolve the path of the files specified, so it will reliably convert weird path notations the system can't handle.
-Content imported through that command thus need not mind the path separator.
+Content imported through that command thus need not mind the path separator. 
 If you want to make sure your code too will survive OS-specific path notations, get used to using `Resolve-path` or the more powerful `Resolve-PSFPath`.
-
-Test added by taha
